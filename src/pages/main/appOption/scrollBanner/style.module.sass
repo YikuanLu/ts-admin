@@ -1,0 +1,33 @@
+@import '@/assets/sass/color.sass'
+.tableEllipsis
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+
+.enbale
+  color: $success-color
+
+.disable
+  color: $danger-color
+
+.greenBtn
+  background-color: $success-color
+  color: white
+  border: 1px solid $success-color
+  &:hover, &:focus
+    background-color: $success-color
+    color: white
+    border-color: $success-color
+
+  &:active, &.active
+    background-color: $success-color
+    border-color: $success-color
+
+.picBg
+  background: $warning-color
+.videoBg
+  background: $success-color
+.inforBg
+  background: $primary-color

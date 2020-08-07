@@ -1,0 +1,96 @@
+@import '@/assets/sass/color.sass'
+html
+  width: 100%
+  height: 100%
+  background-color: #f0f2f5
+
+body
+  width: 100%
+  height: 100%
+  background-color: #f0f2f5
+
+#root
+  width: 100%
+  height: 100%
+  background-color: #f0f2f5
+
+.App
+  width: 100%
+  height: 100%
+  background-color: #f0f2f5
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.clearfix
+  &::after
+    display: block
+    content: ""
+    clear: both
+
+.articleContent
+  img
+    max-width: 100%
+  video
+    max-width: 100%
+    line-height: 28px
+  p
+    margin-bottom: 8px
+
+.noselect
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.overFlowText
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+
+.successColor
+  color: $success-color
+
+.failColor
+  color: $danger-color
+
+.warningColor
+  color: $warning-color
+
+.primaryColor
+  color: $primary-color
+
+.hoverStyle
+  cursor: pointer
+  transition: color 0.3s
+  &:hover
+    color: #1890ff!important
+
+.bf-content
+  .public-DraftStyleDefault-block
+    margin-bottom: 8px!important
+  *
+    line-height: 28px!important
+
+.avatar
+  .ant-upload-list-item,.ant-upload-list-item-info
+    border-radius: 50%!important
+
+.circle
+  border-radius: 50%
+  overflow: hidden
+
+
+.successBtn
+  background-color: $success-color
+  color: #fff
+  &:focus
+    background-color: $success-color!important
+    color: #fff

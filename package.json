@@ -1,0 +1,96 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "@types/axios": "^0.14.0",
+    "@types/braft-editor": "^2.2.0",
+    "@types/jest": "^24.0.21",
+    "@types/lodash": "^4.14.157",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.12.5",
+    "@types/qs": "^6.9.2",
+    "@types/react": "^16.9.11",
+    "@types/react-color": "^3.0.2",
+    "@types/react-dom": "^16.9.3",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/redux-promise": "^0.5.28",
+    "antd": "^4.0.1",
+    "antd-img-crop": "^3.9.0",
+    "axios": "^0.19.2",
+    "babel-plugin-import": "^1.13.0",
+    "braft-editor": "^2.3.9",
+    "cross-env": "^7.0.2",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "qs": "^6.9.4",
+    "react": "^16.11.0",
+    "react-app-rewired": "^2.1.4",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.11.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-promise": "^0.6.0",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "format": "onchange 'src/**/*.js' 'src/**/*.jsx' 'src/**/*.css' 'src/**/*.tsx' -- prettier --write {{changed}}",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "lint-staged": {
+    "*.{js,tsx}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "compression-webpack-plugin": "^3.1.0",
+    "customize-cra": "^0.8.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-alloy": "^3.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "onchange": "^6.1.0",
+    "prettier": "^1.18.2",
+    "tsconfig-paths": "^3.9.0"
+  }
+}

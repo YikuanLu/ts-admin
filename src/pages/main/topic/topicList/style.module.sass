@@ -1,0 +1,25 @@
+@import '@/assets/sass/color.sass'
+
+.open
+  color: $success-color
+
+.close
+  color: $danger-color
+
+.greenBtn
+  background-color: $success-color
+  color: white
+  border: 1px solid $success-color
+  &:hover, &:focus
+    background-color: $success-color
+    color: white
+    border-color: $success-color
+
+  &:active, &.active
+    background-color: $success-color
+    border-color: $success-color
+
+.btns
+  display: flex
+  align-items: center
+  justify-content: center
